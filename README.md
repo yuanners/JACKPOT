@@ -1,5 +1,6 @@
 # JACKPOT
 A chrome extension that prevents cryptojacking by monitor cpu usage per chrome tabe opened.
+Link to download to chrome: https://chrome.google.com/webstore/detail/jackpots/bdbpnndekjipoakgdncjpckffdaabehc?hl=en
 - background script listen for new tab loaded
 - compare current url with the blacklisted urls
 - show a warning page if the url is in the blacklist
