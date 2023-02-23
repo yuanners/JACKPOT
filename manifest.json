@@ -1,0 +1,29 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version":2,
+  "name":"JACKPOTS",
+  "version":"1.0.2",
+  "description":"A chrome extension that blocks cryptojacking",
+   "icons":{
+     "128":"icon/128.png",
+     "48":"icon/48.png",
+     "16":"icon/16.png"
+   },
+   "permissions": [
+     "processes",
+     "tabs",
+     "storage",
+     "alarms",
+     "unlimited_storage"
+   ],
+   "browser_action":{
+     "default-icon":"icon/16.png",
+     "default_popup":"html/popup.html"
+   },
+   "background": {
+        "scripts": ["js/background.js"],
+        "persistent": true
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

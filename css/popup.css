@@ -1,0 +1,82 @@
+body {
+	color:white;
+	background-color: #880e4f;
+	min-width: 200px;
+	text-align: center;
+	font-family: helvetica, arial, 'Lucida Grande', 'Segoe UI', Tahoma, 'DejaVu Sans', sans-serif;
+}
+
+#name {
+	vertical-align: top;
+	font-family: 'Poiret One', cursive;
+}
+#name p{
+	margin-top:-10px;
+	font-weight: bold;
+}
+
+.cpu{
+	display: block;
+	margin:auto;
+	width: 170px;
+	height: 140px;
+	border-radius: 20px;
+	background-color: #bc477b;
+	padding-top: 10px;
+}
+.perCirc {
+	margin:auto;
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: black;
+	background-color: #660033;
+	background-image: linear-gradient(91deg, transparent 50%, white 50%), linear-gradient(90deg, white 50%, transparent 50%);
+}
+.perCirc .InnerCirc {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+	background-color: #bc477b;
+}
+.perCirc .InnerCirc div {
+	position: relative;
+	top: 22px;
+	color:white;
+}
+.perCirc .showPerc {
+	font-size: 25px;
+	line-height:1em;
+}
+#description{
+	padding-top:15px;
+}
+.add{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#msg{
+	font-size: 15px;
+	padding-top: 10px;
+	display: block;
+	margin:auto;
+	font-family: 'Noto Sans', sans-serif;
+}
+#addBlacklist{
+	background-color: #560027;
+	padding-top:10px;
+	font-size: 15px;
+	display: block;
+	margin:auto;
+	margin-top:10px;
+	width:170px;
+	height:30px;
+	border-radius: 7px;
+	cursor: pointer;
+	font-family: 'Ubuntu', sans-serif;
+}

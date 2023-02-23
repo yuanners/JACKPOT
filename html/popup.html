@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src="\js\jquery-3.4.1.min.js" ></script>
+      <script src="\js\popup.js"></script>
+      <link rel="stylesheet" type="text/css" href="\css\popup.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- display name -->
+      <div id="name">
+        <h1>J A C K P O T S</h1>
+        <p>Version 1.0</p>
+      </div>
+      <!-- display cpu usage -->
+      <div class="cpu">
+      <div id="setPerc" class="perCirc">
+	       <div class="InnerCirc">
+		         <div id="description">CPU Usage: </div><div class="showPerc">0%</div>
+	        </div>
+      </div>
+    </div>
+    <!-- display message -->
+    <div class="add">
+    <p id="msg">The cpu usage is normal</p>
+    <p id="addBlacklist" style="display:none">Add to blacklist</p>
+  </div>
+  </body>
+</html>
